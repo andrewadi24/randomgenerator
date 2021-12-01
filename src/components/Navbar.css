@@ -1,0 +1,22 @@
+.navbar-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+small-screen{
+    display: none;
+}
+.navbar{
+    background-color: rgb(24,46,94);
+    color: white;
+}
+@media(max-width:600px){
+    .big-screen{
+        display: none;
+    }
+    .small-screen{
+        display: initial;
+    }
+}

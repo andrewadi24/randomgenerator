@@ -1,0 +1,29 @@
+.settings{
+    /* border: 1px solid black;*/
+    margin-top: 20px;
+} 
+.inner-settings{
+    border: 1px solid black;
+    width: auto;
+    display: inline-block;
+    background: #fafafa;
+    padding: 20px;
+    margin-left: 20px;
+}
+textarea{
+    min-height: 200px;
+    min-width: 300px;
+    overflow-y:scroll;
+}
+@media(max-width:600px){
+    .big-screen{
+        display: none;
+    }
+    .small-screen{
+        display: initial;
+    }
+    .inner-settings{
+        margin: auto;
+        padding-left: 10px;
+    }
+}
